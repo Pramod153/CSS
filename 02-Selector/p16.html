@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        .container{
+            background-color: blueviolet;
+            padding: 10px;
+            border: 2px solid rgb(6, 5, 5);
+        }
+        /* [class*="paraabout"]{ */
+        [class*="para"]{
+            border: 3px solid black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Attribute example..!</h1>
+    </center>
+    <hr>
+    <h2>[attribute*="value"] example...  </h2>
+    <p>The [attribute*="value"] selector is used to select elements whose attribute value contains a specified value.
+
+        The following example selects all elements with a class attribute value that contains "te":
+        
+        Note: The value does not have to be a whole word!  </p>
+    <section class="container">
+        <div class="paraabout">
+            <p>para1</p>
+        </div>
+        <div class="paralorem">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error et dolore commodi iusto a temporibus explicabo velit eum minima nemo provident magnam omnis in sequi obcaecati, reiciendis quas perspiciatis! Obcaecati?</p>
+        </div>
+
+
+    </section>
+</body>
+</html>

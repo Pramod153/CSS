@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: blue;
+            color: rgb(248, 242, 242);
+            padding: 10px;
+        }
+        .container .p1{
+            background-color: orange;
+            padding: 10px;
+            margin:10px;
+            border: 1px solid red;
+        }
+        
+        .p1~div{
+            color: rgb(8, 6, 6);
+            padding: 5px;
+            margin: 5px;
+            background-color: aqua;
+        }
+
+        .container1{
+            background-color: blue;
+            color: rgb(245, 240, 240);
+            padding: 10px;
+        }
+        .container1 .p1{
+            background-color: orange;
+            padding: 5px;
+            margin:5px;
+            border: 1px solid red;
+        }
+        .p1+.para1{
+            color: rgb(8, 6, 6);
+            padding: 5px;
+            margin: 5px;
+            background-color: aqua;
+        }
+        .p1+.para1+.para2+.para3{
+            padding: 5px;
+            margin: 5px;
+            background-color: beige;
+            color: black;
+        }
+        /* .container, .container1{
+            background-color: aliceblue;
+            padding: 20px;
+
+        }
+        .card, .card1{
+            background-color: aqua;
+            padding: 20px;
+        }
+        p{padding: 20px;}
+
+        .card ~ p{
+            background-color: blue;
+        }
+        .card1 +p{}
+        .card1 +p+p{}
+        .card1+p+p+p*/
+
+        
+    </style>
+</head>
+<body>
+    <center><h1>general sibling (~)and adjacent sibling(+)</h1></center>
+    <hr>
+    <h2>General sibling(~) example..!</h2>
+    <section class="container">
+        <div class="p1">
+            <h3 >Card title</h3>
+            <p>paragraph inside card</p>
+        </div>       
+        
+       <div class="p2">
+           <p>para-1</p>
+        </div>
+        <div>
+          <p>para-2</p>
+        </div>
+       <div>
+            <p>para-3</p>
+        </div>
+          <h3>blocking text</h3>
+          <p>para</p>
+        <div>
+            <p>para-4</p>
+        </div>
+        
+    </section>
+    
+
+    
+    <h2>Adjacent sibling(+) example..!</h2>
+    <section class="container1">
+        <div class="p1"> 
+            <h3 >Card title</h3>
+            <p>paragraph inside card</p>
+        </div>
+        <div class="para1">
+            <p>para1</p>
+        </div>
+        <div class="para2">
+            <p>para2</p>
+        </div>
+        <div class="para3">
+            <p>para3</p>
+        </div>
+
+    </section>
+
+</body>
+</html>

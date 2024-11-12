@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        .container{
+            background-color: aqua;
+            padding: 10px;
+            margin: 5px;
+            border: 2px solid blue;
+        }
+        [class^="top"]{
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1> Attribute example...!</h1>
+    </center>
+    <hr>
+    <h2>[attribute^="value"] example...</h2>
+    <p>The [attribute^="value"] selector is used to select elements with the specified attribute, whose value starts with the specified value.
+
+        The following example selects all elements with a class attribute value that starts with "top":
+        
+        Note: The value does not have to be a whole word!
+
+    </p>
+    <section class="container">
+        <div class="para">
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, officiis saepe eaque in est ullam quae, reprehenderit commodi a obcaecati exercitationem ducimus similique quos. Deserunt placeat omnis quidem alias perspiciatis.
+            </p>
+
+        </div>
+        <div class="top-para">
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, officiis saepe eaque in est ullam quae, reprehenderit commodi a obcaecati exercitationem ducimus similique quos. Deserunt placeat omnis quidem alias perspiciatis.
+            </p>
+
+        </div>
+        <div class="toptext ">
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, officiis saepe eaque in est ullam quae, reprehenderit commodi a obcaecati exercitationem ducimus similique quos. Deserunt placeat omnis quidem alias perspiciatis.
+            </p>
+
+        </div>
+    </section>
+</body>
+</html>

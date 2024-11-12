@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SELECTOR</title>
+</head>
+    <style>
+        div.demoClass{
+            color: blue;
+            background-color: yellow;
+            border: 2px solid red;
+            padding: 10px;
+            margin: 10px;
+        }
+        .heading{
+            background-color: gray;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            margin: 10px;
+        }
+        .logo{
+            color: aliceblue;
+            text-decoration: none;
+            font-size: large ;
+            font-weight: bold;
+            
+        }
+        .menu a{
+            background-color: antiquewhite;
+            color: black;
+            justify-content: space-between;
+            text-decoration: none;
+            padding: 5px;
+            margin: 5px;
+            
+        }
+        .container{
+            background-color: aqua;
+            color:black;
+            cursor: pointer;
+        }
+        .home{
+            color: red;
+            padding: 10px;
+            text-decoration: underline;
+            
+        }
+        .about{
+
+        }
+    </style>
+<body>
+    <center>
+        <h1>class selector</h1>
+    </center>
+    <hr>
+    <h2>example-1</h2>
+    <div class="demoClass">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam veritatis eos recusandae excepturi magni assumenda explicabo vero fugiat! Illum laboriosam vel provident facere dolor dolores totam sapiente eaque ex exercitationem.</p>
+    </div>
+    <div class="demoClass">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo veritatis quod, aperiam amet soluta non libero tenetur iusto nostrum error sint quia cum odit expedita nobis assumenda sapiente alias aliquam?</p>
+    </div>
+    <section class="demoClass">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem, ab sequi, molestiae ipsum error quaerat iure blanditiis, maxime nemo beatae nisi tenetur consequuntur. Voluptas eaque vero reiciendis voluptatum perferendis. Eos.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sapiente est molestias labore repellendus, temporibus vel consequatur ut! Tempore officiis iste nam alias? Cum necessitatibus nesciunt nemo asperiores cupiditate amet?</p>
+    </section>
+
+    <h2>example-2</h2>
+    <header class="heading">
+        <a href="#" class="logo">LOGO HERE</a>
+        <nav class="menu">
+            <a href="#">home</a>
+            <a href="#">about</a>
+            <a href="#">login</a>
+
+        </nav>
+    </header>
+
+    <h2>Assignment</h2>
+    <section class="container">
+        <div class="home">
+            <h1 class="name">John Mather</h1>
+            <h3 class="job">Developer</h3>
+        </div>
+
+        <div class="about">
+            <h3 class="about_title">about us</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit suscipit facere nam sapiente. Magni, ratione. Velit cumque architecto cum ea necessitatibus obcaecati soluta recusandae adipisci possimus consequatur! Exercitationem, praesentium ut.</p>
+        </div>
+        <div class="contact">
+            <h3 class="contact-title">Contact Us</h3>
+        </div>
+    </section>
+    
+</body>
+</html>

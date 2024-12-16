@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>filter</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        .container>div{
+            background-color: red;
+            /* height: 250px; */
+            padding: 20px;
+            /* width: 500px;*/
+            margin: 20px; 
+            color: bisque;
+        }
+        .card{
+
+            transition:all 2s;
+        }
+        .container:hover .card {
+            opacity: 0.2;
+            filter: blur(3px);
+            /* transition:all 2s; */
+        }
+        /* .container::after:hover.card {
+            opacity: 0.2;
+            filter: blur(3px);
+            transition:all 2s;
+        } */
+
+
+    </style>
+</head>
+<body>
+    <center>
+        <h1>filter</h1>
+    </center>
+    <hr>
+
+    <section class="container">
+        <div class="card">
+            <h3>card heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error reprehenderit itaque assumenda repellendus porro accusamus totam blanditiis amet sit repudiandae soluta dicta pariatur voluptatem harum veniam, voluptatibus minima ipsa incidunt.</p>
+        </div>
+        <div class="card">
+            <h3>card heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error reprehenderit itaque assumenda repellendus porro accusamus totam blanditiis amet sit repudiandae soluta dicta pariatur voluptatem harum veniam, voluptatibus minima ipsa incidunt.</p>
+        </div>
+        <div class="card">
+            <h3>card heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error reprehenderit itaque assumenda repellendus porro accusamus totam blanditiis amet sit repudiandae soluta dicta pariatur voluptatem harum veniam, voluptatibus minima ipsa incidunt.</p>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text</title>
+    <style>
+        section{
+            border: 2px solid black;
+            padding: 20px;
+        }
+        div{
+            width: 50%;
+            border: 1px solid blue;
+            padding: 20px;
+        }
+        section>div>p{
+            text-align: center;
+        }
+        .b1{
+            text-wrap:wrap ;}
+        .b2{text-wrap:nowrap}
+        .b3{text-wrap:balance}
+        .b4{text-wrap: pretty }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Text-wrap</h1>
+    </center>
+    <hr>
+    <section>
+        <h3>wrap</h3>
+        <div class="b1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, dolore. Dolores fuga at optio quibusdam, labore esse accusamus qui suscipit asperiores iste tempore! Eaque provident, dolor velit ipsa natus aut.</p>
+        </div>
+
+        <h3>nowrap</h3>
+        <div class="b2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt deserunt reiciendis consequuntur, animi nisi praesentium ullam, ut earum eius vel vero at minus dolores, nihil id alias esse odio? Quidem?</p>
+        </div>
+
+        <h3>balance</h3>
+        <div class="b3">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt deserunt reiciendis consequuntur, animi nisi praesentium ullam, ut earum eius vel vero at minus dolores, nihil id alias esse odio? Quidem?</p>
+        </div>
+
+        <h3>pretty</h3>
+        <div class="b4">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt deserunt reiciendis consequuntur, animi nisi praesentium ullam, ut earum eius vel vero at minus dolores, nihil id alias esse odio? Quidem?</p>
+        </div>
+
+    </section>
+    
+</body>
+</html>

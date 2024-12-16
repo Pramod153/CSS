@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            padding: 20px;
+            height: 200px fixed;
+            width: 200px;
+            border-color:5px  blueviolet 10,20px;
+            margin: 20px;
+            background-color: gray;
+            border-width: 1rem;
+            
+        }
+        .b1{
+            border-block:solid ;
+            writing-mode: horizontal-tb;
+           
+        }
+        .b2{
+            border-block: dashed;
+            writing-mode: vertical-lr;
+            
+        }
+        .b3{
+            border-block: groove;
+            /* writing-mode: vertical-rl; */
+            direction-rtl;
+           
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>border-block</h1>
+    </center>
+    <hr>
+    <div class="b1">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque assumenda dignissimos dolor animi. Dolore, repudiandae! Possimus, voluptas iure! Nisi perferendis optio voluptas ipsum cum et dignissimos pariatur magnam beatae blanditiis.</p>
+    </div>
+    <div class="b2">
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut explicabo cupiditate, esse nobis rerum aspernatur recusandae quaerat, reprehenderit id maiores dolorum, iure adipisci illum porro eligendi aliquid voluptatem numquam a?
+        </p>
+    </div>
+    <div class="b3">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur sequi facilis provident. Modi enim soluta fugit ducimus nisi unde placeat dolores, numquam nihil deleniti. Unde distinctio culpa odit eum quos.</p>
+    </div>
+</body>
+</html>

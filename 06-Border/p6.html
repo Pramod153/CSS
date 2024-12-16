@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border</title>
+    <style>
+        div{
+            padding: 20px;
+            margin: 10px;
+            height: 50%;
+            width: 20%;
+            /* border: 10px; */
+            border-color: orange;
+            border-style: solid;
+            border-width: 20px;
+        }
+        .b1{
+            border-image: linear-gradient(orange, deepskyblue)1;
+        }
+        .b2{
+            border-image: repeating-linear-gradient(30deg,  teal, orange, deepskyblue)60 ;
+        }
+        .b3{
+            border-image:url(../image1.jpg)60;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Border Image</h1>
+    </center>
+    <hr>
+    <section class="constainer">
+        <div class="b1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A sunt corporis suscipit mollitia similique, quidem nulla inventore qui. Nesciunt totam eligendi natus tenetur dolorem quos velit quo accusantium atque vel?
+        </div>
+        <div class="b2">
+           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo ullam ipsa amet cum, quas veritatis delectus error odit aut fugiat ipsam officiis. Fuga laudantium officiis quis qui labore sint veniam.
+        </div>
+        <div class="b3">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta blanditiis perspiciatis doloribus, facere odio quam deserunt exercitationem. Laboriosam a impedit, quam ipsum voluptatem vero minus voluptatibus sint, vel similique quasi!
+    </section>
+    
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            text-align: justify;
+            margin: 20PX;
+            columns: 2;
+            column-gap: 50px;
+            column-rule: 2px solid greenyellow;
+        }
+        .b1>p{
+            column-fill: auto;
+        }
+        .b2>p{
+            column-fill: balance;
+        }
+
+    </style>
+</head>
+<body>
+    <center>
+        <h1>column-fill,column,column-rule</h1>
+    </center>
+    <hr>
+    <section class="container">
+        <div class="b1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit beatae placeat porro, ab harum sunt facilis consequuntur! Aperiam adipisci, modi, cupiditate ex ab quia aliquam alias dolorum, consequatur deleniti consectetur.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sit ea quam odit doloribus nisi accusantium fuga repellendus quae modi enim reprehenderit minima voluptatem optio aspernatur, cupiditate sapiente blanditiis in.
+            </p>
+        </div>
+        <div class="b2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit beatae placeat porro, ab harum sunt facilis consequuntur! Aperiam adipisci, modi, cupiditate ex ab quia aliquam alias dolorum, consequatur deleniti consectetur.
+            </p>
+        </div>
+    </section>
+</body>
+</html>

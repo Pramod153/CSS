@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursor</title>
+    <style>
+        center{
+            background-color: rgb(81, 78, 83);
+            padding: 20px;
+            margin:20px;
+            border-radius: 5px;
+            color: white;
+            box-shadow: 5px 5px;
+            cursor: ;
+    
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>CSS CURSOR..!</h1>
+        <p>CSS cursor used to define cursor type(i,e mouse,pointer) when mouse move over a certain area or over alink in web page</p>
+    </center>
+    <hr>
+    <main>
+        <p>select cursor values</p>
+        <p> auto | default | none | context-menu | help | pointer | progress | wait | cell | crosshair | text | vertical-text | alias | copy | move | no-drop | not-allowed | e-resize | n-resize | ne-resize | nw-resize | s-resize | se-resize | sw-resize | w-resize | ew-resize | ns-resize | nesw-resize | nwse-resize | col-resize | row-resize | all-scroll | zoom-in | zoom-out | grab | grabbing ] ]</p>
+        <select name="cursor" id="cursor" onchange="readvalue()">
+            <option >-----choose value------</option>
+            <option >auto</option>
+            <option >default</option>
+            <option >context-menu</option>
+            <option >help</option>
+            <option >progress</option>
+            <option >wait</option>
+            <option >cell</option>
+            <option >crosshair</option>
+            <option >alias</option>
+            <option >zoom-in</option>
+            
+
+        </select>
+    </main>
+    <script>
+        let center=document.querySelector("center");
+        let select=document.querySelector("select");
+
+        function readvalue(){
+            // let displayValue = select.value
+            center.style.cursor=select.value;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+nav{
+    background-color: gray;
+    /* justify-content: ; */
+    text-align: center;
+    padding: 20px;
+  
+}
+nav>a{
+    padding: 10px 12px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+nav>a:hover{
+    background-color: aqua;
+    color: blueviolet;
+}
+nav>a:focus{
+    background-color: orange;
+    color:beige
+}
+.container{
+    text-align: center;
+}
+.container>div{
+    padding: 20px;
+    margin: 10px;
+    
+    
+    background-color: antiquewhite;
+}
+.container>div:target{
+    background-color: chartreuse;
+    color: coral;
+}
+
+
+
+        .form-input{
+            padding: 20px;
+            border: 1px solid green;
+            outline: 1px solid green;
+        }
+        .form-input:focus{
+            border: 1px solid red;
+            outline: 1px solid red;
+        }

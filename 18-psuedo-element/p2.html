@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psuedo-class-element</title>
+    <style>
+        div{
+            border: 5px solid green;
+            border-collapse: collapse;
+            width: 400px;
+            padding: 20px;
+            align-items: center;
+            text-align: center;
+        }
+        h2::before{
+            content: " Mr. ";
+            color: blueviolet;
+        }
+        h2::after{
+            content: " welcome to css";
+            color: chocolate;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1> ::after and ::before</h1>
+    </center>
+    <hr>
+    <div>
+        <h2>ram</h2>
+        <h2>sham</h2>
+        <h2>ravi</h2>
+    </div>
+</body>
+</html>

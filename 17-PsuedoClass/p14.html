@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li:nth-last-child(-n+3){
+            border: 2px solid yellow;
+        }
+        dd:nth-last-of-type(3n-3){
+            border: 2px solid red;
+        }
+        p{
+            font-weight: bold;
+        }
+        dt{
+            font-weight: bold;
+        }
+        dd{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>:nth-last-child && :nth-last-of-type</h1>
+    </center>
+    <hr>
+    <p>color names</p>
+    <ol reversed>
+        <li>green</li>
+        <li>red</li>
+        <li>black</li>
+        <li>aqua</li>
+        <li>blue</li>
+        <li>yellow</li>
+        <li>orange</li>
+        <li>gray</li>
+    </ol>
+    <hr>
+    <dl>
+        <dt>vegetables</dt>
+        <dd>tomato</dd>
+        <dd>onion</dd>
+        <dd>mushroom</dd>
+
+        <dt>fruits</dt>
+        <dd>apple</dd>
+        <dd>graphes</dd>
+        <dd>orange</dd>
+    </dl>
+</body>
+</html>

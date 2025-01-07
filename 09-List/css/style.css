@@ -1,0 +1,74 @@
+*{
+    padding: 0px;
+    margin: 0%;
+}
+.jumbotron{
+    background-color: blueviolet;
+    padding: 20px;
+    margin:20px;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 5px 5px;
+    
+    
+}
+.navbar>img{
+    height: 54px;
+    
+}
+.navbar{
+    background-color: aquamarine;
+}
+.navbar>ul{
+    list-style-type: none;
+    float: right;
+}
+.navbar>ul>li{
+    display: inline-block;
+    padding:20px;
+}
+.navbar>ul>li a{
+   
+    text-decoration: none;
+   
+}
+.navbar>ul>li:hover{
+    background-color: azure;
+    /* color: teal; */
+}
+.navbar>ul>li>a:hover{
+    color: teal;
+}
+
+.list-marker-position>ol>li{
+    background-color: teal;
+    padding: 20px;
+    margin: 10px;
+    margin-bottom: 10px;
+    list-style-position: inside;
+    width: 20%;
+}
+
+.list-marker-position>ol>li a{
+    color: white;
+    text-decoration: none;
+}
+.list-marker-position>ol>li::marker{
+    color: rgb(0, 255, 51);
+    font-size:larger;
+    
+}
+.list-icon>ul{
+    margin: 5%;
+}
+.list-icon>ul>li{
+    list-style-image: url(../image/location.png);
+}
+.list-shorthand>ul>li{
+    background-color: teal;
+    padding: 10px;
+    margin: 10px;
+}
+.list-shorthand>ul>li{
+    list-style: decimal inside url(../image/location.png);
+}

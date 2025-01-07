@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type="radio"]:checked{
+            border: none;
+            outline: 1px solid red;
+        }
+        input[type="radio"]:default{
+            border: none;
+            outline: 1px solid red;
+        }
+        input[type="checkbox"]:checked{
+            border: none;
+            outline: 1px solid rgb(0, 102, 255);
+        }
+        input[type="checkbox"]:default{
+            border: none;
+            outline: 1px solid rgb(0, 255, 217);
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>:checked(radio,check box): default</h1>
+    </center>
+    <hr>
+
+    <form action="">
+
+        <label for="">how do you find about us?</label>
+        <label for="">
+
+            <input type="radio" name="source" id="source" value="google" checked>Google
+        </label>
+        <label for="">
+
+            <input type="radio" name="source" id="source" value="Facebook" checked>Facebook
+        </label>
+        <label for="">
+
+            <input type="radio" name="source" id="source" value="LinkdIn" checked>LinkdIn  
+              </label>
+
+    </form>
+    <hr>
+    <form action="">
+
+        <label for="">choose technologies</label>
+        <label for="">
+
+            <input type="checkbox" name="first" id="first" value="html" checked>html
+        </label>
+        <label for="">
+
+            <input type="checkbox" name="Second" id="Second" value="css" checked>css
+        </label>
+        <label for="">
+
+            <input type="checkbox" name="third" id="third" value="JavaScript" checked>JavaScript
+        </label>
+
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>::backdrop Example</title>
+  <style>
+    dialog {
+      width: 300px;
+      
+      border-radius: 2px solid black;
+      padding: 20px;
+      text-align: center;
+      
+    }
+
+    dialog::backdrop {
+      background: rgba(214, 31, 31, 0.5); /* semi-transparent black */
+    }
+
+    button {
+      margin: 10px;
+      padding: 10px 20px;
+      font-size: 16px;
+      
+      border: none;
+      border-radius: 5px;
+      
+      color: rgb(15, 14, 14);
+    }
+
+   
+  </style>
+</head>
+<body>
+    <center>
+        <h1>::backdrop</h1>
+    </center>
+    <hr>
+  <button onclick="document.getElementById('myDialog').showModal();">Open Dialog</button>
+  
+  <dialog id="myDialog">
+    <h1>Dialog Box!</h1>
+    <p>This is a dialog.</p>
+    <button onclick="document.getElementById('myDialog').close();">Close</button>
+  </dialog>
+</body>
+</html>

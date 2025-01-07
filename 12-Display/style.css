@@ -1,0 +1,51 @@
+/* section{
+    background-color: rgb(26, 24, 24);
+    
+    
+    
+}
+.container1>div{
+    background-color: aqua;
+    color: rgb(21, 23, 24);
+    
+    margin: 5%;
+    justify-content: space-between;
+    display: block;
+    text-align: center;
+    
+}
+.container2>div{
+    background-color: aqua;
+    color: rgb(14, 15, 15);
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+} */
+section{
+    background-color: lightgray;
+    padding: 20px;
+
+}
+div{
+    margin: 20px;
+    color: rgb(27, 35, 35);
+    padding: 20px;
+    background-color: azure;
+    text-align: center;
+}
+.container1{
+    display: block;
+}
+.container2{
+    display: flex;
+}
+.container3 {
+    
+display: inline-flex;
+}
+.container4>ul>li{
+    background-color: aquamarine;
+    padding: 20px;
+    margin-bottom: 5px;
+    display: inline-block;
+}

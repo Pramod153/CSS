@@ -1,0 +1,106 @@
+/* .jumbotron{
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background-color: rgb(81, 81, 81);
+    color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px darkgrey;
+}
+.cssPadding>h1,.cssBorder>h1,.cssMargin>h1{
+    background-color: teal;
+    border-radius: 5px;
+    color: white;
+
+}
+.cssPadding>h1:nth-child(1){
+    padding: 50px; /apply for all sides/
+}
+.cssPadding>h1:nth-child(2){
+    padding: 20px 75px;/*apply for top-bottom and left-right */
+/* } */
+/* .cssPadding>h1:nth-child(3){
+    padding:25px 50px 75px; /apply for top, left-right and bottom/
+}
+.cssPadding>h1:nth-child(4){
+    padding: 25px 50px 100px 75px; /apply for top,left,right and bottom/
+} */
+
+.jumbotron{
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background-color: rgb(81, 81, 81);
+    color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px darkgrey;
+}
+.cssPadding>h1,.cssBorder>h1,.cssMargin>h1{
+    background-color: teal;
+    border-radius: 5px;
+    color: white;
+
+}
+.cssPadding>h1:nth-child(1)
+{
+    padding: 50px; /*apply for all sides*/
+}
+.cssPadding>h1:nth-child(2){
+    padding: 20px 75px;/*apply for top-bottom and left-right */
+}
+.cssPadding>h1:nth-child(3){
+    padding:25px 50px 75px; /*apply for top, left-right and bottom*/
+}
+.cssPadding>h1:nth-child(4){
+    padding: 25px 50px 100px 75px; /*apply for top,left,right and bottom*/
+}
+
+
+/* p2.html  CSS BORDER*/
+.cssBorder>h1{
+    padding: 20px;
+}
+
+.cssBorder>h1:nth-child(1){
+    border: 5px ;
+     border-color: red;    /*apply for all the sides */
+    border-style: solid;
+}
+.cssBorder>h1:nth-child(2){
+    border: 5px ;
+    border-color: red  green; /*top bottom and right left*/
+    border-style: solid;
+}
+.cssBorder>h1:nth-child(3){
+    border: 5px ;
+    border-color: red blue green ; /*top,right left and bottom  */
+    border-style: solid;
+}
+.cssBorder>h1:nth-child(4){
+    border: 5px ;
+    border-color: red blue green yellow; /*top right bottom left*/
+    border-style: solid;
+}
+
+/* p3.html CSS MARGIN */
+.cssMargin>h1:nth-child(1){
+    margin: 50px; /*apply for all sides*/
+}
+.cssMargin>h1:nth-child(2){
+    margin: 20px 75px;/*apply for top-bottom and left-right */
+}
+.cssMargin>h1:nth-child(3){
+    margin:25px 50px 75px; /*apply for top, left-right and bottom*/
+}
+.cssMargin>h1:nth-child(4){
+    margin: 25px 50px 100px 75px; /*apply for top,left,right and bottom*/
+}
+
+/* p4.html */
+.cssBoxModel{
+    background-color: tan;
+    margin: 20px;
+    padding: 20px;
+    color:grey;
+    border: 5px solid black;
+}
